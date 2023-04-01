@@ -30,8 +30,9 @@ Version: 1.0
 /*--------------------
    1. BASE CSS
 ----------------------*/
-
-@import url('https://fonts.googleapis.com/css?family=Raleway:300i,400,600i,700');
+html {
+    scroll-behavior: smooth;
+}
 .alignleft {
     float: left;
     margin-right: 15px;
@@ -93,7 +94,6 @@ body {
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     line-height: 1.6em;
     font-weight: 400;
@@ -413,6 +413,9 @@ a.readmore:hover {
     z-index: 999;
     background: #ffffff;
 }
+.header-top-area.is-sticky {
+    height: 60px;
+}
 
 .mainmenu-area {
     background: #ffffff;
@@ -420,6 +423,16 @@ a.readmore:hover {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     z-index: 9999;
+}
+
+.is-sticky .mainmenu-area {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: auto;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    z-index: 99999;
 }
 
 .navbar-header {
