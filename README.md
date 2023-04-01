@@ -1,6 +1,8 @@
 # OnePro-Nextjs-Starter-Template
 OnePro Nextjs Starter Template is a free template designed for business landing pages, which aligns with the growing trend towards one-page web designs.
 
+Inspired by [`OnePro - Colorlib Free Web Template`](https://colorlib.com/wp/template/onepro/)
+
 ## Next.js
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
