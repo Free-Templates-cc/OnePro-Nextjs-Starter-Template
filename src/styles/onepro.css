@@ -357,7 +357,7 @@ a.readmore:hover {
 }
 
 .promo-area .area-bg {
-    background: rgba(0, 0, 0, 0) url("/img/promo/promo-bg.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("/images/promo-bg.jpg.webp") no-repeat scroll center center / cover;
 }
 
 /*--------------------------
@@ -560,15 +560,15 @@ ul#nav li ul a,
 }
 
 .slide-bg-one {
-    background: rgba(0, 0, 0, 0) url("/img/slider/slide-1.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("/images/slide-1.jpg.webp") no-repeat scroll center center / cover;
 }
 
 .slide-bg-two {
-    background: rgba(0, 0, 0, 0) url("/img/slider/slide_1.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("/images/slide_1.jpg.webp") no-repeat scroll center center / cover;
 }
 
 .slide-bg-three {
-    background: rgba(0, 0, 0, 0) url("/img/slider/slide_2.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("/images/slide_2.jpg.webp") no-repeat scroll center center / cover;
 }
 
 .welcome-area {
@@ -649,14 +649,15 @@ ul#nav li ul a,
     bottom: 20px;
 }
 
-.welcome-slider-area .owl-nav > div {
-    background: #26b7e7 none repeat scroll 0 0;
+.welcome-slider-area .owl-nav > button {
+    background: #26b7e7 none repeat scroll 0 0!important;
     bottom: 0;
     display: inline-block;
-    font-size: 35px;
+    font-size: 35px!important;
     height: 50px;
     margin-left: 10px;
-    padding-top: 5px;
+    padding-top: 0;
+    margin-bottom: 15px;
     right: 0;
     text-align: center;
     -webkit-transition: all 0.3s ease 0s;
@@ -664,7 +665,7 @@ ul#nav li ul a,
     width: 50px;
 }
 
-.welcome-slider-area .owl-nav > div:hover {
+.welcome-slider-area .owl-nav > button:hover {
     background: #fff none repeat scroll 0 0;
     color: #26b7e7;
 }
@@ -1071,8 +1072,8 @@ ul#nav li ul a,
     transform: translateX(-50%);
 }
 
-.testmonial-area .owl-dots > div {
-    border: 1px solid #9d9f9f;
+.testmonial-area .owl-dots > button {
+    border: 1px solid #9d9f9f!important;
     border-radius: 50%;
     display: inline-block;
     height: 15px;
@@ -1082,9 +1083,9 @@ ul#nav li ul a,
     width: 15px;
 }
 
-.testmonial-area .owl-dots > div.active {
+.testmonial-area .owl-dots > button.active {
     background: #26b7e7 none repeat scroll 0 0;
-    border-color: #26b7e7;
+    border-color: #26b7e7!important;
 }
 
 /*---------------------------------
@@ -1176,7 +1177,7 @@ ul#nav li ul a,
     padding: 0;
 }
 
-.blog-feed .owl-nav > div {
+.blog-feed .owl-nav > button {
     bottom: 0;
     left: 0;
     position: absolute;
@@ -1190,7 +1191,7 @@ ul#nav li ul a,
     color: #26b7e7;
 }
 
-.blog-feed .owl-nav > div.owl-next {
+.blog-feed .owl-nav > button.owl-next {
     left: auto;
     right: 0;
 }

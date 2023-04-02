@@ -1,11 +1,11 @@
-import "@/styles/onepro.css";
 import type { AppProps } from "next/app";
-import { Raleway } from "next/font/google";
+import { Roboto } from "next/font/google";
+import "@/styles/onepro.css";
 
-const raleway = Raleway({
-  weight: ["300", "400", "600", "700"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
+const roboto = Roboto({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
 });
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <style jsx global>{`
         html, body {
-          font-family: ${raleway.style.fontFamily};
+          font-family: ${roboto.style.fontFamily};
         }
       `}</style>
       <Component {...pageProps} />

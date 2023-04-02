@@ -1,10 +1,47 @@
 import React from "react";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import dynamic from "next/dynamic";
+const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
+  ssr: false,
+});
 
 type Props = {};
 
 const Welcome = (props: Props) => {
+  const carouselConfig = {
+    merge: true,
+    smartSpeed: 1000,
+    loop: true,
+    nav: true,
+    dots: false,
+    navText: [
+      '<i class="fa fa-angle-left"></i>',
+      '<i class="fa fa-angle-right"></i>',
+    ],
+    autoplay: true,
+    autoplayTimeout: 3000,
+    margin: 10,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 1,
+      },
+      1200: {
+        items: 1,
+      },
+    },
+    
+  };
+
   return (
-    <div className="welcome-slider-area white">
+    <OwlCarousel className="welcome-slider-area white" {...carouselConfig}>
       <div className="welcome-single-slide">
         <div className="slide-bg-one slide-bg-overlay"></div>
         <div className="welcome-area">
@@ -71,7 +108,7 @@ const Welcome = (props: Props) => {
           </div>
         </div>
       </div>
-    </div>
+    </OwlCarousel>
   );
 };
 

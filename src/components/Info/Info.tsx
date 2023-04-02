@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from "next/image"
 type Props = {}
 
 const Info = (props: Props) => {
@@ -9,7 +9,7 @@ const Info = (props: Props) => {
           <div className="row flex-v-center">
             <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
               <div className="intro-image wow fadeIn">
-                <img src="img/intro/intro-bg.jpg" alt="" />
+                <Image src="/images/intro-bg.jpg.webp" alt="" width={555} height={540} />
               </div>
             </div>
             <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
