@@ -1363,3 +1363,27 @@ ul#nav li ul a,
     background: #26b7e7;
     color: #ffffff;
 }
+
+/* Skills Progress */
+.skills-member .progress {
+    height: initial;
+}
+.skills-member .progress .progress-bar {
+    padding: 8px;
+}
+
+.skills-member .color-1 {
+   background-image: -webkit-linear-gradient(left, #239191 0%, #18b1b0 49.88%, #239191 100%);
+}
+.skills-member .color-2 {
+    background-image: -webkit-linear-gradient(left, #33495d 0%, #4a637c 49.88%, #33495d 100%);
+}
+.skills-member .color-3 {
+    background-image: -webkit-linear-gradient(left, #f1c30f 0%, #fbd954 49.88%, #f1c30f 100%);
+}
+.skills-member .color-4 {
+    background-image: -webkit-linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #297fb9 100%);
+}
+.skills-member .color-5 {
+    background-image: -webkit-linear-gradient(left, #ff5b01 0%, #f96620 49.88%, #d94f0d 100%);
+}
