@@ -87,11 +87,15 @@ const Footer = (props: Props) => {
               <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                 <div className="footer-copyright text-center wow fadeIn">
                   <p>
+                  <a href="https://free-templates.cc" target="_blank">
+                      Free-Templates.cc
+                    </a> &middot; {" "}
                     Copyright &copy; {currentYear}{" "}
                     &middot; All rights reserved &middot; This NextJs Starter Template is inpired by {" "}
                     <a href="https://colorlib.com/wp/template/onepro/" target="_blank">
                       OnePro - Colorlib HTML5 Template
-                    </a>
+                    </a> 
+                    
                   </p>
                 </div>
               </div>
